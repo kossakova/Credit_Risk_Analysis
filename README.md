@@ -68,21 +68,35 @@ print(classification_report_imbalanced(y_test, y_pred))
 For our  first part of project we compare two oversampling algorithms  RandomOverSampler and SMOTE.
 Using these algorithms, we resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
 
+### **RandomOverSampler** 
+
 ![RandomOverSampler](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/RandomOverSampler.png)
+
+### **SMOTE**
 
 ![SMOTE](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/SMOTE.png)
 
 
 Next, we tested an undersampling ClusterCentroids algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. 
+### **ClusterCentroids** 
+
 
 ![ClusterCentroids](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/ClusterCentroids.png)
 
-
+### **SMOTEENN** 
 In the second part of the project we twsted combinatorial approach of over- and undersampling with the SMOTEENN algorithm to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms frompart tho above. Using the SMOTEENN algorithm, we resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
+
+
 ![SMOTEENN](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/SMOTEENN.png)
 
+
 In the final part of the project we trained and compared two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and  to determine which algorithm results in the best performance . Using both algorithms, we resampled the dataset, viewed the count of the target classes, trained the ensemble classifier, calculateed the balanced accuracy score, generated a confusion matrix, and generated a classification report.
+### **BalancedRandomForestClassifier**  
+
 ![BalancedRandomForestClassifier](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/BalancedRandomForestClassifier.png)
+
+### **EasyEnsembleClassifier**  
+
 
 ![EasyEnsembleClassifier](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/EasyEnsembleClassifier.png)
 
