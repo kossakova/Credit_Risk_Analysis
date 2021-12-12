@@ -68,6 +68,11 @@ print(classification_report_imbalanced(y_test, y_pred))
 For our  first part of project we compare two oversampling algorithms  RandomOverSampler and SMOTE.
 Using these algorithms, we resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
 
+![RandomOverSampler](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/RandomOverSampler.png)
+
+![SMOTE](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/SMOTE.png)
+
+
 Next, we tested an undersampling ClusterCentroids algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. 
 
 
