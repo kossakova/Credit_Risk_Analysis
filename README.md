@@ -1,6 +1,8 @@
 # Supervised Machine learning and Credit Risk
 
-_Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions_
+_"Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions"_
+
+![machine-learning-separator-1](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/machine-learning-separator-1.jpg)
 
 # Overview of the analysis
 In 2019, more than 19 million Americans had at least one unsecured personal loan. That's a record-breaking number! Personal lending is growing faster than credit card, auto, mortgage, and even student debt. With such incredible growth, FinTech firms are storming ahead of traditional loan processes. By using the latest machine learning techniques, these FinTech firms can continuously analyze large amounts of data and predict trends to optimize lending.
