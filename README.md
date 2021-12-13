@@ -80,33 +80,36 @@ Using these algorithms, we resampled the dataset, viewed the count of the target
 
 ![SMOTE](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/SMOTE.png)
 
-
-Next, we tested an undersampling ClusterCentroids algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. 
 ### **ClusterCentroids** 
-
+Next, we tested an undersampling ClusterCentroids algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. 
+- lower balanced accuracy score of 0.5447339051023905
+- same as over- and under-sampling 1% high risk precision score, and a 100% low risk prescision
+- 72% high risk recall score, and low risk recall of 57% closest to RandomOverSampler
 
 ![ClusterCentroids](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/ClusterCentroids.png)
 
 ### **SMOTEENN** 
 In the second part of the project we twsted combinatorial approach of over- and undersampling with the SMOTEENN algorithm to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms frompart tho above. Using the SMOTEENN algorithm, we resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
-
+- not a sagnificant balanced accuracy differense, 0.644711676499736
+- same as RandomOverSampler and SMOTE 1% high risk precision score, and a 100% low risk prescision
+- 69% high risk recall score, and lower low risk recall of 40%
 
 ![SMOTEENN](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/SMOTEENN.png)
 
-
-In the final part of the project we trained and compared two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and  to determine which algorithm results in the best performance . Using both algorithms, we resampled the dataset, viewed the count of the target classes, trained the ensemble classifier, calculateed the balanced accuracy score, generated a confusion matrix, and generated a classification report.
 ### **BalancedRandomForestClassifier**  
+In the final part of the project we trained and compared two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and  to determine which algorithm results in the best performance . Using both algorithms, we resampled the dataset, viewed the count of the target classes, trained the ensemble classifier, calculateed the balanced accuracy score, generated a confusion matrix, and generated a classification report.
+- 0.7885466545953005 balanced accuracy score
+- slightly higher high risk precision score of 3%, and same 100% low risk prescision
+- 70% high risk recall score, and highr low risk recall of 87%
 
 ![BalancedRandomForestClassifier](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/BalancedRandomForestClassifier.png)
 
 ### **EasyEnsembleClassifier**  
-
+- the most sagnificant balanced accuracy score 0.9316600714093861 
+- higher high risk precision score of 9%, and same 100% low risk prescision
+- overall highest high risk recall score of 92%, and highr low risk recall of 94%
 
 ![EasyEnsembleClassifier](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/EasyEnsembleClassifier.png)
 
-
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 # Summary
-3.	
-4.	Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
