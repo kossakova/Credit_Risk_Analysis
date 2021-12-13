@@ -69,11 +69,14 @@ Using these algorithms, we resampled the dataset, viewed the count of the target
 ### **RandomOverSampler** 
 - 0.6573009382322703 balanced accuracy 
 - 1% high risk precision score, and a 100% low risk prescision
-- recall 
+- 71% high risk recall score, and 60% low risk recall 
 
 ![RandomOverSampler](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/RandomOverSampler.png)
 
 ### **SMOTE**
+- 0.6622479600626106 balanced accuracy score
+- same as RandomOverSampler 1% high risk precision score, and a 100% low risk prescision
+- 63% high risk recall score, and 69% low risk recall  
 
 ![SMOTE](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/SMOTE.png)
 
