@@ -1,19 +1,17 @@
-# ml
+# Supervised Machine learning and Credit Risk
 
-Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions
-
-resources: Python machine learning library
+_Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions_
 
 # Overview of the analysis
 In 2019, more than 19 million Americans had at least one unsecured personal loan. That's a record-breaking number! Personal lending is growing faster than credit card, auto, mortgage, and even student debt. With such incredible growth, FinTech firms are storming ahead of traditional loan processes. By using the latest machine learning techniques, these FinTech firms can continuously analyze large amounts of data and predict trends to optimize lending.
 In this project, we used Python to build and evaluate several machine learning models to predict credit card risk. Being able to predict credit risk with machine learning algorithms can help banks and financial institutions predict anomalies, reduce risk cases, monitor portfolios, and provide recommendations on what to do in cases of fraud.
 
-### Resources used for this project:
-Python
-Scikit-learn Library 
-imbalanced-learn  Library
+### Resources:
+- Python
+- Scikit-learn Library 
+- imbalanced-learn  Library
 
-# Results:
+# Results
 
 Using our knowledge of the imbalanced-learn and scikit-learn libraries w were able to evaluate six machine learning models by using resampling to determine which is better at predicting credit risk. 
 
@@ -103,4 +101,6 @@ In the final part of the project we trained and compared two different ensemble 
 
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-2.	Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+# Summary
+3.	
+4.	Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
