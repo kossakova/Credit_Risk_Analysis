@@ -67,6 +67,9 @@ For our  first part of project we compare two oversampling algorithms  RandomOve
 Using these algorithms, we resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy score, generated a confusion matrix, and generated a classification report.
 
 ### **RandomOverSampler** 
+- 0.6573009382322703 balanced accuracy 
+- 1% high risk precision score, and a 100% low risk prescision
+- recall 
 
 ![RandomOverSampler](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/RandomOverSampler.png)
 
