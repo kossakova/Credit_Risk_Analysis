@@ -2,6 +2,10 @@
 
 _"Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions"_
 
+_"In supervised learning, first a model is initiated, or a template for the algorithm is created. Then it will analyze the data and attempt to learn patterns, which is also called fitting and training. After the data has been fit and trained, it will then make predictions."_
+
+_"In supervised learning, the input data already has a paired outcome, which is plugged in to train the model to predict outcomes in new datasets. For example, we want to build a model that, when given unfamiliar data, can accurately predict the outcomes"_
+
 ![machine-learning-separator-1](https://github.com/kossakova/Credit_Risk_Analysis/blob/main/PNG/machine-learning-separator-1.jpg)
 
 # Overview of the analysis
@@ -108,5 +112,3 @@ Summarize the results of the machine learning models, and include a recommendati
 In this module we and evaluated several machine learning models on the credit card credit dataset. We oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. Then, we used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Lastly, we compared two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. 
 
 Our analysis showed us that BalancedRandomForestClassifier and EasyEnsembleClassifier had over all best performance, other 4 models had almost the same results. EasyEnsembleClassifier gave us the most significant balanced accuracy score of 0.9316600714093861 over other models with a score around 0.70- 0.50. Also highest high risk precision score of 9% over other models with score of 1-3%, same for the sensitivity scores of 92 and 94 percent.  To see how our scores change we could also perform machine learning with Random Forest and Decision Trees models. 
-
-
